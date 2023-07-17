@@ -3,11 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <title>Awesome Books:</title>
 </head>
 <body>
-  <h1>Hello World</h1>
-  <script src="index.js"></script>
+  <header>
+    <nav>
+        <h3>awesome books</h3>
+        <ul>
+            <li><a href="#" onclick="a.lists()">Lists</a></li>
+            <li><a href="#" onclick="a.addNewBook()">Add new</a> </li>
+            <li><a href="#" onclick="a.contactus()">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="date"></div>
+</header>
+
+<section class="container" id="container">
+    <div id="lists">
+        <h1>All awesome Books</h1>
+        <div class="display display-type-1" id="display"></div>
+    </div>
+    </div>
+   <div id="add-new">
+    <h1>Add a new book</h1>
+    <form action="">
+        <input type="text" id="title" placeholder="title">
+        <input type="text" id="author" placeholder="author"> 
+        <div id="formbut"><button id="addbtn" onclick="a.addBooks()"> Add</button></div>
+    </form>
+   </div>  
+</section>
+
+<section>
+    <div id="contactus">
+    <h1 id="h1contact">Contact Information</h1>
+    <div id="pwrapper">
+        <p>Do you have any questions or you just want to say "Hello"?</p>
+        <p>You can reach out to us!</p>
+    </div>
+
+    <ul>
+        <li>Our email: mail@mail.com</li>
+        <li>Our phone number: 023243121234123</li>
+        <li>Our address: Streetname 22, 84052 City, Country</li>
+    </ul>
+    </div>
+
+</section>
+
+<footer>
+<p>Copyright</p>
+</footer>
+
+<!-- Script -->
+  <script type="module" src="./index.js"></script>
 </body>
 </html>
