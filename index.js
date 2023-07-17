@@ -8,23 +8,23 @@ const list = document.querySelector('#lists');
 const addNew = document.querySelector('#add-new');
 const contactUs = document.querySelector('#contact-us');
 
-function enableList() {
+const enableList = () => {
   list.style.display = 'flex';
   addNew.style.display = 'none';
   contactUs.style.display = 'none';
-}
+};
 
-function enableAddNew() {
+const enableAddNew = () => {
   list.style.display = 'none';
   addNew.style.display = 'flex';
   contactUs.style.display = 'none';
-}
+};
 
-function enableContactUs() {
+const enableContactUs = () => {
   list.style.display = 'none';
   addNew.style.display = 'none';
   contactUs.style.display = 'flex';
-}
+};
 
 listLink.addEventListener('click', enableList);
 addNewLink.addEventListener('click', enableAddNew);
