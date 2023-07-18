@@ -61,8 +61,8 @@ To get a local copy up and running, follow these steps:
 
 - Open your Terminal in your VSCode.
 - Navigate to the desired directory [folder] to which you want to clone the repository to
-- [Copy & Paste] Git clone you find in the code button https://github.com/GeekyHacks/AwesomeBook.git
-
+- [Copy & Paste] git@github.com:HossainAraf/Awesome-Books.git
+  
 ### Prerequisites
 
 In order to run this project you need:
@@ -85,8 +85,6 @@ Example commands:
 
 ```
 
---->
-
 ### Install
 
 Must-Install-Project-with-the-Following-Programmes:
@@ -107,8 +105,8 @@ Must-Install-Project-with-the-Following-Programmes:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Adding Contact Form Page
-- Customizing it for Desktop Screen
+- Implemnet React js to make the page more interactive
+- Customizing it for different Screens
 - Adding Email Newsletter Form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,7 +131,6 @@ people.
 I would like to thank...
 
 - Microverse Review Team
-- My Coding Partners
 - Microverse Community in Slack
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
