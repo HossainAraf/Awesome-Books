@@ -32,6 +32,7 @@ contactLink.addEventListener('click', enableContactUs);
 
 // Date time
 document.querySelector('#date').innerHTML = dateTime;
+
 const a = new Books();
 a.createObject();
 a.displayBooks();
@@ -46,3 +47,10 @@ form.addEventListener('submit', (e) => {
 window.removeBook = (id) => {
   a.removeBooks(id);
 };
+
+window.addEventListener('DOMContentLoaded', () => {
+  const sections = [list, addNew, contactUs];
+  sections.forEach((s) => {
+    s.style.display = 'none';
+  });
+});
