@@ -6,8 +6,6 @@
 
   <br/>
 
-  <h3><b>Awesome books</b></h3>
-
 </div>
 
 # 📗 Table of Contents
@@ -101,7 +99,8 @@ Must-Install-Project-with-the-Following-Programmes:
 👤 **Md Arafat Hossain**
 
 - GitHub: <a href="https://github.com/HossainAraf">HossainAraf </a>
-- LinkedIn: <a href="https://linkedin.com/in/md-arafat-hossain-111403275"> Md. Arafat Hossain </a>
+- LinkedIn: <a href="https://linkedin.com/in/md-arafat-hossain-111403275"> Md Arafat Hossain </a>
+- Twitter: <a href="https://twitter.com/HossainAraf99"> Md Arafat Hossain </a>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
